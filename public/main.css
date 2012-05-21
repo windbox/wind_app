@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+#text {
+    font: bold 30px Century Gothic;
+    text-shadow: rgb(110,110,110)3px 3px 5px;
+}
+
+#box {
+    display: block;
+    margin: 150px auto;
+    color: #ffffff;
+    -webkit-border-radius: 10px;
+    opacity: 0.6;
+    background: red;
+    width: 120px;
+    height: 75px;
+    -webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s, font 2s, color 2s;
+}
+
+#box:hover {
+    -webkit-transform: rotate(360deg);
+    opacity: 1;
+    background: #1ec7e6;
+    width: 450px;
+    height: 110px;
+	font: 40px Arial;
+	color: green;
+
+}
