@@ -172,6 +172,10 @@
       }
     </style>
     <script type="text/javascript">
+
+	  function showAndroidToast(toast) {
+        Android.showToast(toast);
+		}
       function about() {
         info = document.getElementById('about-content');
         if (window.XMLHttpRequest)
@@ -234,6 +238,8 @@
           </ol>
         </div>
       </div>
+
+	  <input type="button" value="Say Hz Hello" onClick="showAndroidToast('Hello Android!')" />
 
       <div id="footer">&nbsp;</div>
     </div>
